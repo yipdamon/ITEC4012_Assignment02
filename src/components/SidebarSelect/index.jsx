@@ -4,13 +4,12 @@ import './styles.css';
 const SidebarSelect = (props) => {
 
     // Pass the prop actions
-    const {text, Icon} = props;
+    const {active, text, Icon} = props;
 
     return (
-        <div className="sidebarSelect">
+        <div className={`sidebarSelect ${active && "sidebarSelect--active"}`}>
             <Icon/>
             <h2>{text}</h2>
-
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import './styles.css';
 import SidebarSelect from "../SidebarSelect/index";
+import { Button } from '../Button';
 
 // Icon imports
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -18,15 +19,15 @@ const sidebar = () => {
     return (
         <div className="sidebar">
             <TwitterIcon />
-
-            <SidebarSelect Icon = {HomeIcon} text = "Home"/>
-            <SidebarSelect Icon = {TagIcon} text = "Explore"/>
-            <SidebarSelect Icon = {NotificationsNoneOutlinedIcon} text = "Notifications"/>
-            <SidebarSelect Icon = {MailOutlineIcon} text = "Messages"/>
-            <SidebarSelect Icon = {BookmarkBorderIcon} text = "Bookmarks"/>
-            <SidebarSelect Icon = {FeaturedPlayListOutlinedIcon} text = "Lists"/>
-            <SidebarSelect Icon = {PersonOutlineIcon} text = "Profile"/>
-            <SidebarSelect Icon = {MoreHorizIcon} text = "More"/>
+                <SidebarSelect active Icon = {HomeIcon} text = "Home"/>
+                <SidebarSelect Icon = {TagIcon} text = "Explore"/>
+                <SidebarSelect Icon = {NotificationsNoneOutlinedIcon} text = "Notifications"/>
+                <SidebarSelect Icon = {MailOutlineIcon} text = "Messages"/>
+                <SidebarSelect Icon = {BookmarkBorderIcon} text = "Bookmarks"/>
+                <SidebarSelect Icon = {FeaturedPlayListOutlinedIcon} text = "Lists"/>
+                <SidebarSelect Icon = {PersonOutlineIcon} text = "Profile"/>
+                <SidebarSelect Icon = {MoreHorizIcon} text = "More"/>
+                <Button text="Tweet" type="tweetSidebar" isDisabled={false} action={() => alert("Popup modal dialogue for Tweet goes here")} />
         </div>
     )
 }

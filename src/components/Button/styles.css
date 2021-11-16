@@ -1,0 +1,43 @@
+button:disabled {
+    opacity: 0.2;
+}
+
+button:disabled:hover {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.tweetSidebar {
+    border: none;
+    outline: 0;
+    padding: 18px;
+    color: white;
+    background-color: #1b8fdd;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 240px;;
+}
+
+.secondary {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #000;
+    background-color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: black 1px solid;
+}
+
+.secondary:hover, .tweetSidebar:hover {
+    opacity: 0.9;
+}
