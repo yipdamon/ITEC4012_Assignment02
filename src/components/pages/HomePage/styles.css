@@ -1,0 +1,9 @@
+.homePage {
+    display: flex;
+    height: 100vh;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    /* padding: 0 10px; */
+}

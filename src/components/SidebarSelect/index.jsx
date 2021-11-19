@@ -7,7 +7,7 @@ const SidebarSelect = (props) => {
     const {active, text, Icon} = props;
 
     return (
-        <div className={`sidebarSelect ${active && "sidebarSelect--active"}`}>
+        <div className={`sidebarSelect ${active && "sidebarSelectActive"}`}>
             <Icon/>
             <h2>{text}</h2>
         </div>

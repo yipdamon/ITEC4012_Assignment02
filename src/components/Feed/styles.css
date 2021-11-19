@@ -1,0 +1,38 @@
+h2 {
+    color: #d9d9d9;
+}
+
+.feed {
+    border-right: 1px solid #2f3336;
+
+    min-width: 650px;
+
+    overflow-y: scroll !important;
+
+    /* Hide scrollbar for IE and Edge */
+    -ms-overflow-style: none;
+
+    /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+}
+
+/* Hide that scrollbar (for Chrome, Safari, and Opera) */
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+/* Sticky header for the "home" text */
+.feedHeader {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: black;
+    border: 1px solid #2f3336;
+    padding: 15px 20px;
+}
+
+.makeTweet {
+    border: 1px solid #2f3336;
+    padding: 10px 25px;
+}
+

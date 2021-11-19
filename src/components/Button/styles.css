@@ -1,9 +1,9 @@
 button:disabled {
-    opacity: 0.2;
+    opacity: 0.3;
 }
 
 button:disabled:hover {
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: default;
 }
 
@@ -21,21 +21,6 @@ button:disabled:hover {
     border-radius: 30px;
     margin-left: 20px;
     width: 240px;;
-}
-
-.secondary {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: #000;
-    background-color: #FFF;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-    width: 100%;
-    margin-top: 1rem;
-    font-weight: bold;
-    border: black 1px solid;
 }
 
 .secondary:hover, .tweetSidebar:hover {
