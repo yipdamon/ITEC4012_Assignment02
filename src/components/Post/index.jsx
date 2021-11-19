@@ -8,10 +8,8 @@ import IosShareIcon from '@mui/icons-material/IosShare';
 
 export const Post = () => {
 
-    // const [displayName,username,verified,text,image,avatar] = props;
-
     return (
-        <div className="post">
+        <div className="postList">
             <div className="postAvatar">
                 <img src ="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="profile avatar"/>
             </div>
