@@ -1,0 +1,32 @@
+.notiList{
+    display: flex;
+    border-bottom: 1px solid #2f3336;
+    padding: 20px;
+}
+
+.notiBody{
+    flex: 1;
+}
+
+.notiUser{
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.notiDescription {
+    margin-bottom: 10px;
+}
+
+.notiIcon {
+    color: #ff0000;
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+p {
+    padding-top: 5px;
+    color: gray;
+}
