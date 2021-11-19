@@ -2,6 +2,15 @@ h3 {
     color: #dfdfdf;
 }
 
+.MakeTweet {
+    display: flex;
+    padding: 20px;
+}
+
+.tweetProfile {
+    margin-right: 10px;
+}
+
 .tweetField{
     border: none;
     outline: 0;
@@ -30,6 +39,6 @@ input {
     margin-top: 1rem;
     font-weight: bold;
     border-radius: 30px;
-    margin-left: 85%;
+    margin-left: 130%;
     width: 100px;
 }

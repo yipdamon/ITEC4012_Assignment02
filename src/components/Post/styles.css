@@ -1,0 +1,37 @@
+h4 {
+    color: #6f767d;
+    font-weight: lighter;
+}
+
+.postUser{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.post{
+    display: flex;
+    border-bottom: 1px solid #2f3336;
+    padding: 20px;
+}
+
+.postBody{
+    flex: 1;
+    padding: 10px
+}
+
+.postBody > img {
+    border-radius: 20px;
+}
+
+.postHeaderDescription {
+    margin-bottom: 10px;
+}
+
+.postButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+

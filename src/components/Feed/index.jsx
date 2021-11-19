@@ -1,5 +1,6 @@
 import React from 'react';
 import MakeTweet from "../MakeTweet/index";
+import Post from '../Post';
 
 import './styles.css';
 
@@ -11,35 +12,17 @@ export const Feed = () => {
             <div className="feedHeader">
                 <h2>Home</h2>
             </div>
-            
 
             {/* MakeTweet */}
             <div className="makeTweet">
                 <MakeTweet />
             </div>
-            
 
             {/* Posts */}
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
-            <h1>Test</h1>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
 
         </div>
     )

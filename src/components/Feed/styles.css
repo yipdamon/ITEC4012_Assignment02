@@ -5,7 +5,7 @@ h2 {
 .feed {
     border-right: 1px solid #2f3336;
 
-    min-width: 650px;
+    min-width: 600px;
 
     overflow-y: scroll !important;
 
@@ -33,6 +33,5 @@ h2 {
 
 .makeTweet {
     border: 1px solid #2f3336;
-    padding: 10px 25px;
 }
 
