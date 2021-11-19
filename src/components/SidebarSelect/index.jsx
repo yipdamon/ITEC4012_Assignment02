@@ -7,6 +7,7 @@ const SidebarSelect = (props) => {
     const {active, text, Icon} = props;
 
     return (
+        // Sidebar with icon and text, current page user is on = active
         <div className={`sidebarSelect ${active && "sidebarSelectActive"}`}>
             <Icon/>
             <h2>{text}</h2>
