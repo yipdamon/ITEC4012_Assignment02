@@ -1,5 +1,7 @@
 body {
     background-color: black;
+
+    /* Make site not scrollable */
     overflow: hidden;
 }
 

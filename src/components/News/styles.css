@@ -1,0 +1,24 @@
+.newsColumn {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.searchBar{
+    display: flex;
+    color: white;
+    border: none;
+    background-color: #202020;
+    border-radius: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.searchIcon {
+    color: #757575;
+}
+
+.searchTwitterField{
+    border: none;
+    outline: 0;
+    font-size: 16px;
+}
