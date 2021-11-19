@@ -7,6 +7,7 @@ import News from "../../News";
 export const HomePage = () => {
 
     return (
+        // Homepage with homepage components
         <div className="homePage">
             <Sidebar/>
             <Feed/>
