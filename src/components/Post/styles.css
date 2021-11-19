@@ -10,7 +10,7 @@ h4 {
     margin-left: 5px;
 }
 
-.post{
+.postList{
     display: flex;
     border-bottom: 1px solid #2f3336;
     padding: 20px;

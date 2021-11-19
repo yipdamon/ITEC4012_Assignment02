@@ -11,9 +11,8 @@ export const Post = () => {
 
     return (
         // Creates one post
-        <div className="post">
-
-            {/* Post avatar image */}
+        <div className="postList">
+            {/* Post avatar images */}
             <div className="postAvatar">
                 <img src ="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="profile avatar"/>
             </div>

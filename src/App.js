@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import { HomePage } from './components/pages/HomePage';
+import { NotificationsPage } from './components/pages/NotificationsPage';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
             <HomePage></HomePage>
           </Route>
 
-          {/* PAGE TWO */}
-          <Route exact path="/pageTwo">
-
+          {/* NOTIFICATIONS PAGE */}
+          <Route exact path="/notifications">
+            <NotificationsPage></NotificationsPage>
           </Route>
           
         </Switch>
