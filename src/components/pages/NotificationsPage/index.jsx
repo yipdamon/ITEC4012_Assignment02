@@ -7,6 +7,7 @@ import News from "../../News";
 export const NotificationsPage = () => {
 
     return (
+        // Notification page with notification components
         <div className="notiPage">
             <Sidebar/>
             <Notifications/>

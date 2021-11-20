@@ -6,6 +6,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 export const NotificationPosts = () => {
 
     return (
+        // Notification template
         <div className="notiList">
             <div className="notiIcon">
                 <FavoriteIcon/>

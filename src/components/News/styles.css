@@ -95,6 +95,8 @@
 }
 
 .footer {
+    padding-top: 1rem;
+    padding-left: 20px;
     color: #757575;
     font-size: 14px;
 }
