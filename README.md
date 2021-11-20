@@ -38,5 +38,5 @@ The right column content with the _"search bar"_, _"what's happening"_, _"who to
 ## FollowUser
 Component that goes into **News** specifically for the "Who to follow" section
 
-# ITEC 4012 - Assignment02
+# ITEC 4012 - Assignment02 - November 19, 2021
 
