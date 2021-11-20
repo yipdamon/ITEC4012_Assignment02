@@ -1,5 +1,4 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
 
 import './styles.css';
 import { Button } from '../Button';
@@ -11,7 +10,7 @@ export const MakeTweet = () => {
         <div className="MakeTweet">
             {/* Tweeter's profile avatar icon */}
             <div className="tweetProfile">
-                <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"/>
+                <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="profile icon"/>
             </div>
 
             {/* Form for user to make tweet */}

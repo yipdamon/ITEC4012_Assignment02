@@ -5,8 +5,20 @@
     padding-right: 20px;
 }
 
+.sidebar a {
+    text-decoration: none;
+}
+
 .twitterIcon{
     font-size: 30px !important;
     margin-left: 0px;
     margin-bottom: 0px;
+}
+
+.sidebar a.nav-selected {
+    font-weight: bold;
+}
+
+.sidebar text{
+    font-weight: bold;
 }
