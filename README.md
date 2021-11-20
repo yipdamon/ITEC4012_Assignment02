@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Recreating the twitter website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this assignment I decided to recreate the twitter webpage.
 
-## Available Scripts
+I choose this as the components were minimal, clear, and easy to distinquish, but not so simple like Instagram where basically the entire site is one component.
 
-In the project directory, you can run:
+I chose to recreate the **_homepage_** and **_notifications_** page as there's lots of resuable items and similar items across the different pages.
 
-### `npm start`
+I have lots of components in this project including:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Sidebar
+This component exists on the left side of the site, and always the left side, it houses the navigation bar allowing users to switch between pages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## SidebarSelect
+This is to make the component reuseable in the sidebar, making it easy put in new items into the sidebar.
 
-### `npm test`
+## Button
+For buttons that need to return an action that isn't required for this project, so there's just an alert popup instead
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Feed
+This is where I layout the middle column content page, the feed exists within the **Homepage**
 
-### `npm run build`
+## MakeTweet
+This is the box inside of **Feed** for users to create and post a tweet
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Post
+This is where the template of the post exists, this also goes inside of **Feed**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Notifications
+Also a middle column content page but for notifications
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notification Posts
+The content template for items within **Notifications** similar to **Post**
 
-### `npm run eject`
+## News
+The right column content with the _"search bar"_, _"what's happening"_, _"who to follow"_, as well as the _"footer"_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## FollowUser
+Component that goes into **News** specifically for the "Who to follow" section
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# ITEC 4012 - Assignment02 - November 19, 2021
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
